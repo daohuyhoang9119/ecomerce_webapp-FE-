@@ -1,0 +1,98 @@
+.error-text-login {
+  color: red;
+  margin-top: 0.5rem;
+  font-style: italic;
+  font-size: 0.7rem;
+}
+
+.text-error{
+  color:red;
+  margin-top: 0.5rem;
+  font-style: italic;
+  font-size: 0.7rem;
+}
+.add {
+  max-width: 105px;
+  display: flex;
+  input {
+    width: 100% !important;
+    border: none;
+    text-align: center;
+    overflow: visible;
+  }
+  button {
+    background-color: #f9f9f9;
+    border: solid 1px #cccccc;
+    width: 30px;
+    text-align: center;
+    outline: none;
+    flex-shrink: 0;
+    line-height: 30px;
+  }
+}
+
+.cart-item-scss{
+  flex-direction: column;
+}
+.count_remove_scss{
+  justify-content: space-between;
+}
+
+.subtotal_price-cart-scss{
+  margin-left: auto;
+}
+
+.inputCartItem{
+  text-align: center;
+  display:flex;
+}
+
+
+.value-button {
+  display: inline-block;
+  border: 1px solid #ddd;
+  width: 40px;
+  height: 28px;
+  text-align: center;
+  vertical-align: middle;
+  background: #eee;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.value-button:hover {
+  cursor: pointer;
+}
+
+.inputCartItem #decrease {
+  margin-right: -4px;
+  border-radius: 8px 0 0 8px;
+}
+
+.inputCartItem #increase {
+  margin-left: -4px;
+  border-radius: 0 8px 8px 0;
+}
+
+/* form #input-wrap {
+  margin: 0px;
+  padding: 0px;
+} */
+
+input#number {
+  text-align: center;
+  border: none;
+  width: 60px;
+  height: 28px;
+  outline: none;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
